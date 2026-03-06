@@ -104,7 +104,7 @@ df_heatmap = df_heatmap[['Mon','Tue','Wed','Thu','Fri','Sat','Sun']]
 df_heatmap = df_heatmap.sort_index()
 
 plt.figure(figsize=(12,6))
-sns.heatmap(df_heatmap, cmap='Oranges', annot=True, fmt=".0f", linewidths=0.5)
+sns.heatmap(df_heatmap, cmap='Purples', annot=True, fmt=".0f", linewidths=0.5)
 plt.title("Total Check-ins by Hour and Weekday")
 plt.xlabel("Weekday")
 plt.ylabel("Hour")
